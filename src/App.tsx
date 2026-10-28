@@ -60,7 +60,7 @@ function App() {
                   />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-lg mb-1">Round 1 Registrations Open</h3>
+                  <h3 className="font-semibold text-lg mb-1">Lightening Round Registrations Open</h3>
                   <p className="text-gray-300 text-sm">Register now for our flagship event, SRM MUN 2026.</p>
                 </div>
               </div>
