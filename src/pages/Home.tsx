@@ -133,7 +133,7 @@ function Home() {
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 flex-shrink-0">
                   <img
-                    src="/media.jpeg"
+                    src="/media/cam.png"
                     alt="Media Gallery"
                     className="w-full h-full object-cover"
                   />
