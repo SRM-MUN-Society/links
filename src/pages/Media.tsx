@@ -140,7 +140,7 @@ function Media() {
                         <line x1="12" y1="17" x2="12" y2="21" />
                       </svg>
                     </div>
-                    <h4 className="font-semibold text-base">Control Room Pictures</h4>
+                    <h4 className="font-semibold text-base">Control Room Coverage</h4>
                   </div>
                 </a>
 
