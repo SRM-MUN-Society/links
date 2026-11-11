@@ -49,6 +49,25 @@ function Home() {
         {/* Link Cards */}
         <div className="space-y-4">
 
+          {/* LINK TO MEDIA PAGE */}
+          <Link to="/media" className="flex items-center gap-4">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer group">
+              <div className="flex items-center gap-4">
+                <div className="w-16 h-16 rounded-xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 flex-shrink-0">
+                  <img
+                    src="/media/cam.png"
+                    alt="Media Gallery"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-semibold text-lg mb-1">Media Release</h3>
+                  <p className="text-gray-300 text-sm">Official media release of SRM MUN 2026 by SRM MUN Society</p>
+                </div>
+              </div>
+            </div>
+          </Link>
+
           {/* 
           LINK 1 
           <a href="https://forms.gle/67bAK8exUCW6uAdCA" className="flex items-center gap-4">
@@ -126,25 +145,6 @@ function Home() {
               </div>
             </div>
           </a>
-
-          {/* LINK TO MEDIA PAGE */}
-          <Link to="/media" className="flex items-center gap-4">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 cursor-pointer group">
-              <div className="flex items-center gap-4">
-                <div className="w-16 h-16 rounded-xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 flex-shrink-0">
-                  <img
-                    src="/media/cam.png"
-                    alt="Media Gallery"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-semibold text-lg mb-1">Media Release</h3>
-                  <p className="text-gray-300 text-sm">Official media release of SRM MUN 2026 by SRM MUN Society</p>
-                </div>
-              </div>
-            </div>
-          </Link>
 
         </div>
 
