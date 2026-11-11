@@ -180,9 +180,9 @@ function Media() {
                 <div className="flex-1">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="font-semibold text-xl mb-2">Closing Ceremony Coverage</h3>
+                      <h3 className="font-semibold text-xl mb-2">Closing Ceremony - Clips</h3>
                       <p className="text-gray-300 text-sm">
-                        Complete coverage from the closing ceremony of SRM MUN 2026
+                        Video coverage from the closing ceremony of SRM MUN 2026
                       </p>
                     </div>
                     <ChevronDown 
